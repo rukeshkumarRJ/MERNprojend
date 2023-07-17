@@ -12,7 +12,7 @@ import Contact from './Components/contact';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <HashRouter>
+    <HashRouter base="/">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
