@@ -1,0 +1,14 @@
+.imageProp{
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    margin-left: 25%;
+}
+.container{
+    
+    margin-bottom: 15px;
+}
+*{
+    overflow-x:hidden;
+}

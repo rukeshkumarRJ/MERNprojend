@@ -1,0 +1,16 @@
+.defColo{
+    background-color: rgb(6, 11, 34);
+    color: aliceblue;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.defColo a:hover{
+    color: purple;
+   }
+   .marginBotto{
+      padding-left: 100px;
+      padding-right: 100px;
+   }
+   .marginBotto a{
+       font-size: medium;
+   }

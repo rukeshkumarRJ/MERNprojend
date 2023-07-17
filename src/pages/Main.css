@@ -1,0 +1,34 @@
+
+.contain{
+    margin-top: 5vh;
+    font-size: larger;
+    margin-left: 15%;margin-right: 10%;
+}
+.inside-contain{
+    padding-top: 20px;
+    background-image: url('./image2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;height: 600px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.defColor{
+    background-color: rgb(6, 11, 34);
+    color: aliceblue;
+    padding-top: 15px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.topdefColor{
+    
+    background-color: rgb(6, 11, 34);
+    color: aliceblue;
+}
+.defColor a:hover{
+ color: purple;
+}
+.defColor a{
+    font-size: large;
+}

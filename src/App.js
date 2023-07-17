@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Main from './Main.js';
+import Createuser from './pages/CreateUser';
+import Login from './pages/Login';
+import Home from './Components/Home';
+import EventList from './Components/EventList';
+import EventDetails from './Components/EventDetails';
+import CreateEvent from './Components/CreateEvent';
+import UpdateStudent from './Components/UpdateEvent';
+import Contact from './Components/contact';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/create-user" element={<Createuser />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/home" element={<Home />}/>
+        <Route path="/create-event" element={<CreateEvent/>}/>
+        <Route path="/event-list" element={<EventList />}/>
+        <Route path="/event-details" element={<EventDetails />}/>
+        <Route path="/update-event/:id" element={<UpdateStudent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default App;
