@@ -9,10 +9,10 @@ import EventDetails from './Components/EventDetails';
 import CreateEvent from './Components/CreateEvent';
 import UpdateStudent from './Components/UpdateEvent';
 import Contact from './Components/contact';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
@@ -24,7 +24,7 @@ function App() {
         <Route path="/event-details" element={<EventDetails />}/>
         <Route path="/update-event/:id" element={<UpdateStudent />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
