@@ -11,7 +11,7 @@ function Home() {
       
       <div className="container">
         <img
-          src="/asesrs/img.png"
+          src="/asests/img.png"
           alt="Admin Page Banner"
           className="imageProp"
         />
