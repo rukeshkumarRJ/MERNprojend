@@ -9,12 +9,8 @@ function Home() {
     <div>
       <Nav />
       
-      <div className="container">
-        <img
-          src="./image.png"
-          alt="Admin Page Banner"
-          className="imageProp"
-        />
+      <div className="containe">
+        
         <hr />
         <Link to="/create-event" className="btn btn-primary mx-2">
           Create Event

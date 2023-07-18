@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
 import './Foot.css';
 function Foot(){
     return(
         <div class="row defColo marginBotto">
             <div class="col-4">
                 <h5 className="text-center">Features</h5>
-                <a href="/home" class="nav-link text-center">Home</a>
-                <a href="/create-event" class="nav-link text-center">Create Event</a>
-                <a href="/event-list" class="nav-link text-center">Event List</a>
-                <a href="/contact" class="nav-link text-center">Contact</a>
-                <a href="/logout" class="nav-link text-center">Logout</a>
+                <Link to="/home" class="nav-link text-center">Home</Link>
+                <Link to="/create-event" class="nav-link text-center">Create Event</Link>
+                <Link to="/event-list" class="nav-link text-center">Event List</Link>
+                <Link to="/contact" class="nav-link text-center">Contact</Link>
+                <Link to="/" class="nav-link text-center">Logout</Link>
+            
             </div>
             <div class="col-4">
                 <h5 className="text-center">Connect Now</h5>

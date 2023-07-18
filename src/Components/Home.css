@@ -1,13 +1,11 @@
-.imageProp{
+
+.containe{
+    background-image: url('./img.png');
+    margin-bottom: 15px;
     
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 50%;
-    margin-left: 25%;
-}
-.container{
-    
-    margin-bottom: 15px;
+    height:600px;
 }
 *{
     overflow-x:hidden;
