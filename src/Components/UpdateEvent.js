@@ -47,7 +47,7 @@ function UpdateEvent() {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <EventForm getState={getState} btnName="Update Student" nameValue={obj.ename} platformValue={obj.platform} MeetLinkValue={obj.meetlink} DateValue={obj.edate} TimeValue={obj.etime}/>
+                <EventForm getState={getState} btnName="Update Event" nameValue={obj.ename} platformValue={obj.platform} MeetLinkValue={obj.meetlink} DateValue={obj.edate} TimeValue={obj.etime}/>
             </form>
         </div>
     )
