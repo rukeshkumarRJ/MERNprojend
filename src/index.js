@@ -8,7 +8,6 @@ import {
   RouterProvider
 } from 'react-router-dom';
 import App from './App';
-import './styles/index.css';
 
 const router = createHashRouter([
   {
